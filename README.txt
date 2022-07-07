@@ -5,3 +5,7 @@ When a tool is opened, it behaves exactly like the tool in ArcToolbox. At the be
 
 It should be noted that the instruments have specific positions (coordination) in the dam body, which are usually analyzed as a group in a Cross_Section; Thus, for example, the pressure cells in the BB section are named PC_Cross_Section_BB and its program code is provided here as PC_Cross_Section_BB.py.
 Other Python codes including A.R.py, Pore Pressure.py, Ru.py, Settlememt.py, and Total Stress.py have been developed for the analysis of arching ratio, pore water pressure, ru coefficient, settlement, and total stress, respectively.
+
+NOTE: To run the toolbox properly, please place the database in the following path:
+E:\Projet Of Daryan\GDB\Daryan_Edited.gdb
+Define a geodatabase file if you need to store the output files.
